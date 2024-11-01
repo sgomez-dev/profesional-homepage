@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, BrowserRouter, Navigate } from "react-router-dom"
+import { Routes, Route, Navigate, HashRouter } from "react-router-dom"
 import { Home } from "../Components/Home"
 import { Portfolio } from "../Components/Portfolio"
 import { Services } from "../Components/Services"
@@ -9,9 +9,10 @@ import { HeaderNav } from '../Components/layout/HeaderNav'
 import { Footer } from '../Components/layout/Footer'
 import { Proyecto } from '../Components/Proyecto'
 
+
 export const MyRoutes = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
         <HeaderNav />
 
         <section className="content">
@@ -31,9 +32,7 @@ export const MyRoutes = () => {
             }></Route>
           </Routes>
         </section>
-
         <Footer />
-
-    </BrowserRouter>
+    </HashRouter>
   )
 }

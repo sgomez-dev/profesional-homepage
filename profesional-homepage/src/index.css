@@ -342,3 +342,9 @@ button:hover{
   color: #555;
   line-height: 1.5;
 }
+
+.pdf-content {
+  justify-content: center;
+  width: 100%; 
+  height: 500px;
+}
