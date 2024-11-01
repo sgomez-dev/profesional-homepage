@@ -27,7 +27,7 @@ export const Curriculum = () => {
         >
         </object>
     </div>
-      <button onClick={() => downloadFile(PDF_FILE)}>Descargar CV</button>
+      <button onClick={() => downloadFile(PDF_FILE)} className="cv-download">Descargar CV</button>
     </div>
   );
 };
