@@ -61,6 +61,39 @@ export const works = [
         'url': 'https://github.com/Santi1503/Threejs-journey',
         'tecnologias': 'Threejs',
         'categorias': 'Desarrollo Threejs',
-        'descripcion': 'Se detalla  el proceso de aprender Threejs y los proyectos que he realizado en el camino.'
-    }
+        'descripcion': 'Se detalla el proceso de aprender Threejs y los proyectos que he realizado en el camino.'
+    },
+    {
+        'id': 'calculator-net-framework',
+        'nombre': 'Calculadora .net-Framework',
+        'url': 'https://github.com/Santi1503/Calculator-.net-framework',
+        'tecnologias': '.net-Framework',
+        'categorias': 'Desarrollo .net-Framework',
+        'descripcion': 'Aquí se encuentra un proyecto desarrollado con .net-Framework en Visual Studio Community. Es un proyecto sencillo de calculadora.'
+    },
+    {
+        'id': 'budget-app',
+        'nombre': 'Control de Presupuesto',
+        'url': 'https://github.com/Santi1503/Budget-app',
+        'tecnologias': 'React',
+        'categorias': 'Desarrollo React',
+        'descripcion': 'Este es un proyecto desarrollado con React en el que se lleva el control de un presupuesto. En este, se puede agregar un presupuesto y se va restando respectivamente de las compras realizadas.'
+    },
+    {
+        'id': 'to-do',
+        'nombre': 'Lista de tareas',
+        'url': 'https://github.com/Santi1503/ToDo',
+        'tecnologias': 'React',
+        'categorias': 'Desarrollo React',
+        'descripcion': 'Este es un proyecto desarrollado con React en el que se lleva un listado de tareas por hacer. En este, se agregan tareas por hacer y se pueden tachar o eliminar una vez completadas.'
+    },
+    {
+        'id': 'weather-app',
+        'nombre': 'Aplicación del Clima',
+        'url': 'https://github.com/Santi1503/ProyectosJava-WeatherApplication',
+        'tecnologias': 'JavaScript',
+        'categorias': 'Desarrollo JavaScript',
+        'descripcion': 'Este es un proyecto desarrollado con JavaScript, CSS y HTML en el que se puede ver el clima actual de cierta ciudad. En este, se puede poner el nombre de cualquier ciudad del mundo y se encuentra el clima y la humedad actual de esa ciudad.'
+    },
+    
 ]
