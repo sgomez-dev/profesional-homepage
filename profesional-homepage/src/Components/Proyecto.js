@@ -17,8 +17,8 @@ export const Proyecto = () => {
     return (
         <div className='page'>
           <h1 className='project-heading'>{proyecto.nombre}</h1>
-          <span className='project-category'>{proyecto.categorias}</span>
-          <h3 className='project-tech'>{proyecto.tecnologias}</h3>
+          <span className='project-category'><strong>Categoría: </strong>{proyecto.categorias}</span>
+          <h3 className='project-tech'><strong>Tecnología: </strong>{proyecto.tecnologias}</h3>
           <p className='project-description'>{proyecto.descripcion}</p>
           <a href={proyecto.url} target='_blank' rel='noopener noreferrer' className='project-link'>
               Ver Proyecto

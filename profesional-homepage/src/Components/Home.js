@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { LatestProjects } from './LatestProjects'
 
 export const Home = () => {
   return (
@@ -21,7 +22,7 @@ export const Home = () => {
         <p>Estos son algunos de los ultimos proyectos que he desarrollado</p>
 
         <div className='projects'>
-
+          <LatestProjects />
         </div>
       </section>
 
