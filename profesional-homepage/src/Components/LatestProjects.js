@@ -10,7 +10,7 @@ export const LatestProjects = () => {
           "https://api.github.com/users/Santi1503/repos?sort=updated&per_page=3",
           {
             headers: {
-              Authorization: `Bearer ${process.env.REACT_APP_GITHUB_TOKEN}`,
+              Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
             },
           }
         );
