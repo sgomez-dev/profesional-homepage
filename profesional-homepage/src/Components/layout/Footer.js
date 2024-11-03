@@ -13,7 +13,7 @@ export const Footer = () => {
           <img src={require("../../Images/instagram.png")} alt="Intagram" />
         </a>
         <a
-          href="www.linkedin.com/in/santiago-gomez-de-la-torre-3a7b62249"
+          href="https://www.linkedin.com/in/santiago-gomez-de-la-torre-3a7b62249/"
           target="_blank"
           rel="noopener noreferrer"
         >
