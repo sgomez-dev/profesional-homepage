@@ -18,8 +18,8 @@ export const Home = () => {
       </h2>
 
       <section className='lastProjects'>
-        <h2 className='heading'>Mis ultimos proyectos</h2>
-        <p>Estos son algunos de los ultimos proyectos que he desarrollado</p>
+        <h2 className='heading'>Mis últimos proyectos</h2>
+        <p>Estos son algunos de los últimos proyectos que he desarrollado</p>
 
         <div className='projects'>
           <LatestProjects />
