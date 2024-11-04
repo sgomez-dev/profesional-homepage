@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import '../../index.css'
 
 export const HeaderNav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,9 +15,9 @@ export const HeaderNav = () => {
         <span>S</span>
         <h3>Santiago Gómez de la Torre Romero</h3>
       </div>
-      <button className="hamburger" onClick={toggleMenu}>
+      {/*<button className="hamburger" onClick={toggleMenu}>
         ☰
-      </button>
+      </button>*/}
       <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
         <ul>
           <li>
