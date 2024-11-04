@@ -41,10 +41,10 @@ code {
 
 .header .logo h3 {
   display: block;
-  font-size: 150px;
+  flex-basis: 150px;
+  margin-left: 15px;
   font-weight: 300;
   text-transform: uppercase;
-  margin-left: 15px;
 }
 
 .header nav {
