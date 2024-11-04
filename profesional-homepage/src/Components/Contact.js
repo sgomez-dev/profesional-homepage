@@ -30,7 +30,7 @@ export const Contact = () => {
 
   return (
     <div className='page'>
-      <h1 className='heading'>Contacto</h1>
+      <h1 className='heading'>Contact</h1>
 
       <div className="card">
         <form ref={form} onSubmit={sendEmail} className='contact'>
