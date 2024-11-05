@@ -5,7 +5,7 @@ export const works = [
         'url': 'https://github.com/Santi1503/ReactStart',
         'tecnologias': 'React',
         'categorias': 'Desarrollo Web',
-        'descripcion': 'Este proyecto es un conjunto de proyectos desarrollados en React en donde se ve mi aprendizaje en pequeños módulos. Esto es para la gente que este aprendiendo React desde cero para que se pueda hacer una idea de los componentes que se utilizan en React.'
+        'descripcion': 'Repositorio de proyectos y ejercicios en React diseñado para principiantes y desarrolladores que buscan reforzar sus habilidades en este framework con JavaScript. Cada proyecto aborda un aspecto clave de React, así como componentes, estados, rutas y hooks. Material del curso de Victor Robles.'
     },
     {
         'id': 'start-up',
@@ -13,7 +13,7 @@ export const works = [
         'url': 'https://start-up-three.vercel.app/',
         'tecnologias': 'React',
         'categorias': 'Desarrollo Web',
-        'descripcion': 'El proyecto esta enfocado en hacer un resumen de las habilidades que tengo actualmente y tener un registro de los proyectos que he estado elaborando. Como tal, es algo parecido a un portafolio, ya que es un intento de primer portafolio.'
+        'descripcion': 'Este proyecto esta orientado a una primera iteración de un portafolio para un programador. Es un bosquejo de como imagino que podría verse bien un portafolio sencillo.'
     },
     {
         'id': 'python-projects',
@@ -21,7 +21,7 @@ export const works = [
         'url': 'https://github.com/Santi1503/ProyectosPython',
         'tecnologias': 'Python',
         'categorias': 'Desarrollo Python',
-        'descripcion': 'Son varios proyectos desarrollados en Python en los cuales se desglosa en varias áreas. Estas incluyen Machine Learning, Bots de ayuda y pequeñas Aplicaciones.'
+        'descripcion': 'Esta es una colección de proyectos y scripts creados en Python, que abarcan diversas aplicaciones prácticas y algoritmos de programación.'
     },
     {
         'id': 'swift-projects',
@@ -29,7 +29,7 @@ export const works = [
         'url': 'https://github.com/Santi1503/Swift-projects',
         'tecnologias': 'Swift',
         'categorias': 'Desarrollo Swift',
-        'descripcion': 'Son varios proyectos desarrollados en Swift y SwiftUI en los que se puede ver mi experiencia con tecnologías para desarrollo móvil, en este caso para dispositivos IOS.'
+        'descripcion': 'Colección de proyectos desarrollados con Swift y SwiftUI. En estos proyectos se puede ver proyectos simples y están hechos para que haya una trayectoria en donde se evidencie la experiencia obtenida.'
     },
     {
         'id': 'csharp-projects',
@@ -37,7 +37,7 @@ export const works = [
         'url': 'https://github.com/Santi1503/CSharp-Projects',
         'tecnologias': 'CSharp',
         'categorias': 'Desarrollo CSharp',
-        'descripcion': 'Estos son varios proyectos que he desarrollado en CSharp con los cursos de Microsoft. Aquí de igual manera se encontrarán proyectos de métodos que se utilizan en CSharp.'
+        'descripcion': 'Colección de proyectos y ejercicios en C# diseñados para explorar las capacidades del lenguaje en desarrollo de aplicaciones, desde fundamentos hasta funcionalidades avanzadas.'
     },
     {
         'id': 'machineLearning-dataScience',
@@ -45,15 +45,15 @@ export const works = [
         'url': 'https://github.com/Santi1503/machineLearning-dataScience',
         'tecnologias': 'Python',
         'categorias': 'Desarrollo Python',
-        'descripcion': 'Aquí se puede encontrar varios proyectos que he realizado tras aprender un curso de Machine Learning & Data Science.'
+        'descripcion': 'Material utilizado de Santiago Hernandez sobre Machine Learning y Data Science. El repositorio esta dedicado a proyectos y notebooks de aprendizaje automático y ciencia de datos.'
     },
     {
-        'id': 'docker',
-        'nombre': 'Proyectos de Docker',
-        'url': 'https://github.com/Santi1503/DockerProyects',
-        'tecnologias': 'Docker',
-        'categorias': 'Desarrollo Docker',
-        'descripcion': 'Aquí se puede encontrar varios proyectos que he realizado para reforzar mis conocimientos de Docker. Son algunos proyectos que he realizado antes pero ahora utilizando Docker.'
+        'id': 'packatrack',
+        'nombre': 'Packatrack',
+        'url': 'https://packatrack.vercel.app/#/home',
+        'tecnologias': 'React',
+        'categorias': 'Desarrollo Web',
+        'descripcion': 'Packatrack es una aplicación desarrollada con React para el seguimiento de paquetes entregados. Su diseño formal y funcional permite a los usuarios registrar y gestionar información clave sobre las entregas realizadas cada día.'
     },
     {
         'id': 'threejs',
@@ -61,7 +61,7 @@ export const works = [
         'url': 'https://github.com/Santi1503/Threejs-journey',
         'tecnologias': 'Threejs',
         'categorias': 'Desarrollo Threejs',
-        'descripcion': 'Se detalla el proceso de aprender Threejs y los proyectos que he realizado en el camino.'
+        'descripcion': 'Repositorio donde se documenta el aprendizaje y proyectos en el uso de Three.js. Con esta se pueden crear gráficos 3D en el navegador. Se incluyen ejercicios, ejemplos y proyectos utilizando gráficos en 3D.'
     },
     {
         'id': 'calculator-net-framework',
@@ -69,23 +69,23 @@ export const works = [
         'url': 'https://github.com/Santi1503/Calculator-.net-framework',
         'tecnologias': '.net-Framework',
         'categorias': 'Desarrollo .net-Framework',
-        'descripcion': 'Aquí se encuentra un proyecto desarrollado con .net-Framework en Visual Studio Community. Es un proyecto sencillo de calculadora.'
+        'descripcion': 'Aplicación de calculadora simple desarrollada en C# utilizando .NET Framework. Este proyecto sirve como ejemplo práctico para explorar el desarrollo de aplicaciones de escritorio en Windows.'
     },
     {
         'id': 'budget-app',
         'nombre': 'Control de Presupuesto',
-        'url': 'https://github.com/Santi1503/Budget-app',
+        'url': 'https://budget-app-three-sigma.vercel.app',
         'tecnologias': 'React',
         'categorias': 'Desarrollo React',
-        'descripcion': 'Este es un proyecto desarrollado con React en el que se lleva el control de un presupuesto. En este, se puede agregar un presupuesto y se va restando respectivamente de las compras realizadas.'
+        'descripcion': 'Aplicación de gestión financiera que ayuda a los usuarios a monitorear y controlar sus gastos y presupuestos. Con una interfaz intuitiva, esta aplicación permite registrar ingresos y egresos, visualizar el estado financiero y ajustar el presupuesto personal.'
     },
     {
         'id': 'to-do',
         'nombre': 'Lista de tareas',
-        'url': 'https://github.com/Santi1503/ToDo',
+        'url': 'https://to-do-tau-murex.vercel.app',
         'tecnologias': 'React',
         'categorias': 'Desarrollo React',
-        'descripcion': 'Este es un proyecto desarrollado con React en el que se lleva un listado de tareas por hacer. En este, se agregan tareas por hacer y se pueden tachar o eliminar una vez completadas.'
+        'descripcion': 'Aplicación simple y eficiente para la gestión de tareas. Diseñada con un enfoque en la productividad, esta aplicación permite a los usuarios agregar, editar y eliminar tareas de manera intuitiva.'
     },
     {
         'id': 'weather-app',
@@ -93,7 +93,14 @@ export const works = [
         'url': 'https://github.com/Santi1503/ProyectosJava-WeatherApplication',
         'tecnologias': 'JavaScript',
         'categorias': 'Desarrollo JavaScript',
-        'descripcion': 'Este es un proyecto desarrollado con JavaScript, CSS y HTML en el que se puede ver el clima actual de cierta ciudad. En este, se puede poner el nombre de cualquier ciudad del mundo y se encuentra el clima y la humedad actual de esa ciudad.'
+        'descripcion': 'Aplicación de pronostico del clima que permite a los usuarios consultar las condiciones meteorológicas actuales de ciudades. Con una interfaz amigable y atractiva, ofrece información precisa del clima en cualquier ubicación.'
     },
-    
+    {
+        'id': 'profesional-homepage',
+        'nombre': 'Página de Perfil Profesional',
+        'url': 'https://santiagogomez-one.vercel.app/#/home',
+        'tecnologias': 'React',
+        'categorias': 'Desarrollo React',
+        'descripcion': 'En este repositorio podrás encontrar mi página de perfil profesional, desarrollada con mis conocimientos de React. Aquí presento mi experiencia, habilidades y proyectos personales, ofreciendo una visión completa de mi trayectoria y competencias en el desarrollo web.'
+    },
 ]
