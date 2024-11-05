@@ -3,7 +3,7 @@
 ¡Bienvenido al repositorio de mi página profesional! Este proyecto funciona como un portafolio en línea para mostrar mis habilidades, proyectos y experiencia en IT y desarrollo web.
 
 ## 🚀 Demo en Vivo
-Puedes ver la versión en vivo de mi página profesional [aquí](https://santiagogomez-one.vercel.app/#/portfolio).
+Puedes ver la versión en vivo de mi página profesional [aquí](https://santiagogomez-one.vercel.app/#/).
 
 ## 🛠️ Descripción del Proyecto
 
