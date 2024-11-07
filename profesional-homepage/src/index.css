@@ -75,13 +75,13 @@ code {
 
 .header .active,
 .header a:hover {
-  color: #8FBC8F;
+  color: #8fbc8f;
 }
 
 .menu-toggle {
   display: none;
   background: none;
-  color: #2E8B57;
+  color: #2e8b57;
   border: none;
   font-size: 2rem;
   cursor: pointer;
@@ -116,44 +116,44 @@ code {
   margin-top: 80px;
 }
 
-.home strong{
-  color:#228B22
+.home strong {
+  color: #228b22;
 }
 
-.home h2{
+.home h2 {
   color: rgb(98, 97, 97);
   font-weight: lighter;
 }
 
-.home a{
+.home a {
   padding: 3px;
   border-radius: 5px;
   color: white;
-  background-color: #2E8B57;
+  background-color: #2e8b57;
   text-decoration: none;
   transition: all 400ms;
 }
 
 .page .heading,
-.home .heading{
+.home .heading {
   font-size: 30px;
   font-weight: 500;
   color: black;
   margin-bottom: 0px;
 }
 
-.page .heading{
+.page .heading {
   font-size: 55px;
   font-weight: bold;
 }
 
-.home p{
+.home p {
   color: rgb(98, 97, 97);
 }
 
 input[type="text"],
 input[type="email"],
-textarea{
+textarea {
   display: block;
   padding: 15px;
   margin-top: 25px;
@@ -161,14 +161,14 @@ textarea{
 }
 
 input[type="submit"],
-button{
+button {
   font-size: 16px;
   padding: 10px;
   margin-top: 15px;
   border: 0px;
   border-radius: 5px;
   color: white;
-  background-color: #2E8B57;
+  background-color: #2e8b57;
   text-decoration: none;
   cursor: pointer;
   transition: all 400ms;
@@ -176,7 +176,7 @@ button{
 
 .home a:hover,
 input[type="submit"]:hover,
-button:hover{
+button:hover {
   background-color: rgb(10, 195, 10);
 }
 
@@ -207,13 +207,13 @@ button:hover{
 }
 
 .work-title a {
-  color: #228B22;
+  color: #228b22;
   margin-top: 4px;
-  margin-bottom: 4px; 
+  margin-bottom: 4px;
 }
 
 .work-title a:hover {
-  color: #0cae52; 
+  color: #0cae52;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -243,29 +243,30 @@ button:hover{
 
 .project-heading {
   font-size: 42px;
-  color: #2F4F4F;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", 
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  color: #2f4f4f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   font-weight: 600;
   margin: 0 0 10px;
 }
 
 .project-category {
   font-size: 14px;
-  color: #555; 
+  color: #555;
   text-decoration: underline;
   margin-bottom: 5px;
 }
 
 .project-tech {
   font-size: 18px;
-  color: #2E8B57;
+  color: #2e8b57;
   font-weight: bold;
   margin-top: 10px;
 }
 
 .project-description {
-  color: #4F4F4F;
+  color: #4f4f4f;
   font-size: 16px;
   line-height: 1.6;
   margin: 15px 0;
@@ -275,7 +276,7 @@ button:hover{
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
-  background-color: #2E8B57;
+  background-color: #2e8b57;
   padding: 8px 16px;
   border-radius: 5px;
   margin-top: 10px;
@@ -315,7 +316,7 @@ button:hover{
 
 .project-card h3 {
   font-size: 1.2em;
-  color: #2F4F4F;
+  color: #2f4f4f;
 }
 
 .project-card p {
@@ -347,7 +348,7 @@ button:hover{
 
 .service h2 {
   font-size: 1.5em;
-  color: #228B22;
+  color: #228b22;
   margin-top: 10px;
 }
 
@@ -395,7 +396,7 @@ button:hover{
 .contact input[type="email"]:focus,
 .contact textarea:focus {
   outline: none;
-  border-color: #228B22;
+  border-color: #228b22;
 }
 
 .contact textarea {
@@ -405,7 +406,7 @@ button:hover{
 
 .contact input[type="submit"] {
   padding: 10px;
-  background-color: #228B22;
+  background-color: #228b22;
   color: white;
   border: none;
   border-radius: 5px;
@@ -479,4 +480,46 @@ button:hover{
     text-decoration: none;
     transition: background 300ms;
   }
+}
+
+.project-details h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-details h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.project-details p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-details pre {
+  background-color: #f6f8fa;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.project-details a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.project-details ul,
+.project-details ol {
+  margin-left: 2rem;
+}
+
+.project-details blockquote {
+  border-left: 4px solid #dfe2e5;
+  color: #6a737d;
+  padding-left: 1rem;
+  margin-left: 0;
+  font-style: italic;
 }
