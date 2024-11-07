@@ -18,6 +18,7 @@ export const ProjectDetails = () => {
           `https://api.github.com/repos/Santi1503/${projectName}/readme`,
           {
             headers: {
+              Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
               Accept: "application/vnd.github.v3.raw"
             },
           }
@@ -35,6 +36,7 @@ export const ProjectDetails = () => {
           `https://api.github.com/repos/Santi1503/${projectName}`,
           {
             headers: {
+              Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
               Accept: "application/vnd.github.v3+json"
             },
           }
