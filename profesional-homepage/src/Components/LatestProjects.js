@@ -15,7 +15,11 @@ export const LatestProjects = () => {
           }
         );
         const data = await response.json();
-        setProjects(data);
+        if (Array.isArray(data)) {
+          setProjects(data)
+        } else {
+          console.error("Invalid response from GitHub API:", data);
+        }
       } catch (error) {
         console.error("Error fetching GitHub projects:", error);
       }
@@ -31,13 +35,6 @@ export const LatestProjects = () => {
           <div key={project.id} className="project-card">
             <h3>{project.name}</h3>
             <p>{project.description}</p>
-            <a
-              href={project.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Ver en GitHub
-            </a>
           </div>
         ))}
       </div>
