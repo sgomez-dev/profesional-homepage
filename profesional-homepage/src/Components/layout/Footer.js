@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="social-icons">
         Santiago Gómez de la Torre &copy; Developer - 2024
         <a
-          href="https://www.instagram.com/santigt1503/"
+          href="https://www.instagram.com/sgomez.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
