@@ -367,6 +367,10 @@ button:hover {
   margin: 0 auto;
 }
 
+.pdf-detail {
+  display: none;
+}
+
 .card {
   background-color: #fff;
   padding: 30px;
@@ -479,6 +483,14 @@ button:hover {
     width: 100%;
     text-decoration: none;
     transition: background 300ms;
+  }
+
+  .pdf-content {
+    display: none;
+  }
+
+  .pdf-detail {
+    display: flex;
   }
 }
 

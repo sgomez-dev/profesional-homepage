@@ -18,6 +18,7 @@ export const Curriculum = () => {
       <h1 className="heading">Curriculum</h1>
       <p>A continuación, puedes ver una vista previa de mi currículum:</p>
 
+      <p className="pdf-detail">La pantalla es muy pequeña como para previsualizar el archivo, por favor descargalo para verlo de la mejor manera.</p>
       <div className="pdf-content">
         <object
             data={require('../data/CV_Santiago.pdf')}
@@ -26,7 +27,7 @@ export const Curriculum = () => {
             height="100%"
         >
         </object>
-    </div>
+      </div>
       <button onClick={() => downloadFile(PDF_FILE)} className="cv-download">Descargar CV</button>
     </div>
   );
