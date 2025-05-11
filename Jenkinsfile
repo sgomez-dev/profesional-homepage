@@ -3,7 +3,7 @@ pipeline {
     environment {
         SERVER_REG = "balgittuber"
         /** DEPLOYMENT **/
-        APP_NAME = "home"
+        APP_NAME = "homepage"
         SCANNER_HOME = tool 'sonarqube'
         ENV = "/var/jenkins_home/envs/${APP_NAME}/env"
     }
@@ -23,7 +23,7 @@ pipeline {
             steps {
                 echo '====== DEPLOYING ======'
                 sh """
-                    cp ${ENV} .env
+                    cp ${ENV} .
                     docker build . -f Dockerfile -t ${SERVER_REG}/${APP_NAME}:${BRANCH_NAME}-${BUILD_ID}
                     docker login 
                     docker push ${SERVER_REG}/${APP_NAME}:${BRANCH_NAME}-${BUILD_ID}
