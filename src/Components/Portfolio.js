@@ -11,7 +11,7 @@ export const Portfolio = () => {
     const fetchProjects = async () => {
       try {
         const response = await fetch(
-          `https://api.github.com/users/Santi1503/repos?page=${currentPage}&per_page=${projectsPerPage}`,
+          `https://api.github.com/users/sgomez-dev/repos?page=${currentPage}&per_page=${projectsPerPage}`,
           {
             headers: {
               Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,

@@ -7,7 +7,7 @@ export const LatestProjects = () => {
     const fetchProjects = async () => {
       try {
         const response = await fetch(
-          "https://api.github.com/users/Santi1503/repos?sort=updated&per_page=3",
+          "https://api.github.com/users/sgomez-dev/repos?sort=updated&per_page=3",
           {
             headers: {
               Authorization: `token ${process.env.REACT_APP_GITHUB_TOKEN}`,
